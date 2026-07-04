@@ -1,6 +1,6 @@
 let ans = Number(prompt("Enter a number: "))
 if(isNaN(ans)){
-  console.log("Please enter a valid number.");
+  console.log("Please enterinr a valid number.");
 }
 else if(ans >= 18){
   console.log("You are eligible to vote.");
