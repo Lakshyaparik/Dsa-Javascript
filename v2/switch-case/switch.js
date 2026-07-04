@@ -25,3 +25,14 @@ switch(abc){
   default:
     console.log("The value is not 0.3 or 0.5");
 }
+
+switch(true){
+  case 1 < 2:
+    console.log("1 is less than 2");
+    break;
+  case 2 < 1:
+    console.log("2 is less than 1");
+    break;
+  default:
+    console.log("None of the conditions are true");
+}
