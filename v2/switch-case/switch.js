@@ -28,7 +28,7 @@ switch(abc){
 
 switch(true){
   case 1 < 2:
-    console.log("1 is less than 2");
+    console.log("1 is less than 2");  // in case value === x
     break;
   case 2 < 1:
     console.log("2 is less than 1");
