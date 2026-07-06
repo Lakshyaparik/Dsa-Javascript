@@ -5,11 +5,12 @@ if(isNaN(n) || n <= 0 || n === null) {
   console.log("Please enter a valid number");
 }
 else{
-  for(let i=1;i<=Math.floor(n/2);i++){
+  let sum = 0;
+  for(let i = 1; i <= n; i++) {
     if(n%i==0){
-      console.log(i + " is a factor of " + n);
+      console.log(i +' is the factor of '+ n);
+      
     }
-    console.log(n + "is not a factor of " + n);
-    
   }
+  console.log("The sum of first " + n + " numbers is: " + sum);
 }
